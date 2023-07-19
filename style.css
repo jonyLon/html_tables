@@ -1,0 +1,78 @@
+table,
+td,
+th {
+  border: 2px solid black;
+}
+
+table {
+  height: 200px;
+  width: 800px;
+  margin: 30px auto;
+  border-collapse: collapse;
+}
+
+table.first tr:last-child td:first-child {
+  background-color: black;
+}
+
+table.first tr:first-child td:last-child {
+  background-color: yellow;
+}
+
+table.second tr:first-child td:first-child {
+  text-align: center;
+  vertical-align: bottom;
+}
+
+table.second tr:first-child td:last-child {
+  text-align: right;
+  vertical-align: bottom;
+}
+
+table.second tr:last-child td:last-child,
+table.second tr:nth-child(2) td:last-child {
+  text-align: center;
+  vertical-align: top;
+}
+
+table.second tr:nth-child(2) td:first-child {
+  text-align: center;
+}
+
+table.third tr:first-child {
+  background-color: pink;
+}
+
+table.third tr:first-child td:nth-child(2) {
+  background-color: green;
+}
+
+table.fourth {
+  width: 400px;
+}
+
+table.fourth colgroup col:last-child {
+  background-color: lightblue;
+}
+
+table.fourth colgroup col:nth-child(2) {
+  background-color: lightpink;
+}
+
+table.fourth tr td:last-child {
+  text-align: center;
+}
+
+table.fourth tr td:nth-child(2) {
+  text-align: center;
+}
+
+table.fourth tfoot {
+  font-weight: 600;
+  color: red;
+  text-align: center;
+}
+
+table.fourth thead {
+  background-color: lightgray;
+}
